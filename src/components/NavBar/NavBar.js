@@ -1,5 +1,7 @@
-import './Header.css'
+import './NavBar.css'
 import Boton from './Boton'
+import Title from './Title'
+import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
 
@@ -7,7 +9,8 @@ const NavBar = () => {
     return (
 
         <div className = 'app-container'>
-
+            <Title/>
+            <CartWidget/> 
             <br></br>
             <nav>
                 <div>
@@ -20,6 +23,7 @@ const NavBar = () => {
 
                 </div>
             </nav>
+            
         </div>
     )
 }

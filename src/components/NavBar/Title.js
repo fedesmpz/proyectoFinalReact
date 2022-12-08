@@ -1,7 +1,7 @@
-import './Header.css'
+import './NavBar.css'
 import logo from '../../Assets/logo_alta.png'
-import cart from '../../Assets/cart.png'
-import CartWidget from './CartWidget'
+import cart from '../CartWidget/cart.png'
+//import CartWidget from './CartWidget'
 
 const Title = () => {
 
@@ -13,7 +13,6 @@ const Title = () => {
                 <h1>Ludicus - Juegos de Mesa</h1>
                 <img src={cart} className = 'logo'/>
             </div>
-            <CartWidget/>
         </div>
     )
 

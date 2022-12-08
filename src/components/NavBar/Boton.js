@@ -1,4 +1,4 @@
-import './Header.css'
+import './NavBar.css'
 
 
 const Boton = ( {text = "", link = ""}) => {

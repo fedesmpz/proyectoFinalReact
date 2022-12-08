@@ -1,12 +1,24 @@
 
-import Header from './components/Header.js';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import './App.css'
 
 
 function App() {
   return (
     <div>
       <div>
-      <Header/>
+        <NavBar/>
+      </div>
+      <div className="align">
+        <ItemListContainer src="./Assets/aventurerosAlTren.jpg" title="Aventureros Al Tren" text="Un juego para viajar"/>        
+        <ItemListContainer src="./Assets/aventurerosAlTren.jpg" title="Aventureros Al Tren" text="Un juego para viajar"/>
+        <ItemListContainer src="./Assets/aventurerosAlTren.jpg" title="Aventureros Al Tren" text="Un juego para viajar"/>
+      </div>
+      <div className="align">
+        <ItemListContainer src="./Assets/aventurerosAlTren.jpg" title="Aventureros Al Tren" text="Un juego para viajar"/>        
+        <ItemListContainer src="./Assets/aventurerosAlTren.jpg" title="Aventureros Al Tren" text="Un juego para viajar"/>
+        <ItemListContainer src="./Assets/aventurerosAlTren.jpg" title="Aventureros Al Tren" text="Un juego para viajar"/>
       </div>
     </div>
   );
